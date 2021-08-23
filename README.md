@@ -33,12 +33,8 @@ Filebeat watch the logs,collect log evernt.
 Metricbeat watch the system performance (CPU,MEMORY,Network Traffic).
 
 
-| Name     | Function                                | IP Address | Operating System |
-|----------|---------------------- ------------------|------------|------------------|
-| Jump Box | Gateway                                 |  10.0.0.10 | Linux            |
-| Web3     | Host a container(DVWA)                  |  10.0.0.13 | Linux            |
-| Web4     | Host a container(DVWA)                  |  10.0.0.14 | Linux            |
-| ELK2     | Monitoring & log aggregation for Web3&4 |  10.2.0.5  | Linux            |
+![Table 1](https://user-images.githubusercontent.com/81339363/130533364-0501aa88-8c1f-430e-bbd4-6084421c9aa4.jpg)
+
 
 ### Access Policies
 
