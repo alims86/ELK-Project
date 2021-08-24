@@ -91,6 +91,6 @@ These Beats allow us to collect the following information from each machine:
 
 Copy the ansible.cfg file to /etc/ansible.
 Update the hosts file to include the DVWA Vitrual Machines Private IP Addresses and ELK Private IP Address.
-Run the playbook etc/ansible/roles/metric-playbook.yml and navigate to the ELK server on port tcp 5601 to ensure to check that the installation worked as expected with the following URL: http://20.57.177.19:5601/app/infra#/infrastructure/inventory
+Run the playbook etc/ansible/roles/metric-playbook.yml and navigate to the ELK server on port tcp 5601 to ensure to check that the installation worked as expected with the following URL: http://20.57.177.19:5601/app/kibana#/home
 
 
