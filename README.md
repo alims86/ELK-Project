@@ -89,16 +89,8 @@ These Beats allow us to collect the following information from each machine:
 
 ### Using the Playbook 
 
-- Copy the /etc/ansible/files to etc/ansible/roles.
-- Update the host file to include the IP addresses of the VMs.
-- Run the playbook, and navigate to http://elkserverPublicIP:5601/setup.php to check that the installation worked as expected.
-
-_ Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it? Host file and Copy Hosts to etc/Anisble
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? The hosts file to include the Webservers Private IPs and ELK IP.
-- _Which URL do you navigate to in order to check that the ELK server is running?  http://20.57.177.19:5601/app/infra#/infrastructure/inventory
-
-
-
+Copy the ansible.cfg file to /etc/ansible.
+Update the hosts file to include the DVWA Vitrual Machines Private IP Addresses and ELK Private IP Address.
+Run the playbook etc/ansible/roles/metric-playbook.yml and navigate to the ELK server on port tcp 5601 to ensure to check that the installation worked as expected with the following URL: http://20.57.177.19:5601/app/infra#/infrastructure/inventory
 
 
