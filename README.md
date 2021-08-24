@@ -13,24 +13,23 @@ https://github.com/alims86/ELK-Project/blob/main/Ansible/Filebeats/Filebeats%20P
 
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
   - Machines Being Monitored
 - How to Use the Ansible Build
 
-
 ### Description of the Topology
 
-The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
+The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the DVWA Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the filesystem and system performance.
 
 Filebeat watch the logs,collect log evernt.
-Metricbeat watch the system performance (CPU,MEMORY,Network Traffic).
+Metricbeat watch the system performance (CPU,MEMORY,Network Traffic,etc...).
 
 
 ![Table 1](https://user-images.githubusercontent.com/81339363/130533364-0501aa88-8c1f-430e-bbd4-6084421c9aa4.jpg)
@@ -44,7 +43,7 @@ Only the Jump Box machine can accept connections from the Internet. Access to th
  (My Home Public IP)
 
 Machines within the network can only be accessed by Jump Box or ELK Machine.
-Jump box ( 10.0.0.10) & ELK Machine  ( 10.2.0.5)
+Jump box (10.0.0.10) & ELK Machine (10.2.0.5)
 
 A summary of the access policies in place can be found in the table below.
 
