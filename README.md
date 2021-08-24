@@ -73,10 +73,7 @@ The following screenshot displays the result of running `docker ps` after succes
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
 
-| Name     | Function                                | IP Address | Operating System |
-|----------|---------------------- ------------------|------------|------------------|
-| Web3     | Host a container(DVWA)                  |  10.0.0.13 | Linux            |
-| Web4     | Host a container(DVWA)                  |  10.0.0.14 | Linux            |
+![Table 2](https://user-images.githubusercontent.com/81339363/130541296-cac97feb-cbb7-41cb-ac87-b86016a84a74.jpg)
 
 
 We have installed the following Beats on these machines:
